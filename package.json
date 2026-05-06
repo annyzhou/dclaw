@@ -1,0 +1,17 @@
+{
+  "name": "dclaw",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Deploy and chat with OpenClaw on Dedalus Machines",
+  "scripts": {
+    "start": "tsx openclaw.ts",
+    "chat": "tsx chat.ts"
+  },
+  "dependencies": {
+    "dedalus": "^0.2.0",
+    "dotenv": "latest"
+  },
+  "devDependencies": {
+    "tsx": "latest"
+  }
+}
